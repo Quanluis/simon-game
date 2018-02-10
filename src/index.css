@@ -1,8 +1,26 @@
 html {
-    color: red;
+    
+    height: 100%;
+    background-color: #4D4D4E;
+    
+}
+body{
+    background-color:  #4D4D4E;
 }
 .form-control-lg{
-    height: 300%;
+    height: 700%;
     width: 160px;
     
+}
+.footer {
+    position: relative;
+    margin-block-end: 50px;
+}
+.button1 {
+   position: relative;
+   right: 60px;
+}
+.button2 {
+    position: relative;
+    left: 60px;
 }
