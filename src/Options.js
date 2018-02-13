@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 class Options extends Component {
     render() {
-        return( 
+        return (
             <div> 
                 <div className = "row flex-d justify-content-center footer rounded">           
                     <button className = "button1 bg-white rounded">Start</button>
@@ -12,6 +12,7 @@ class Options extends Component {
             </div> 
         );
 
-    };
+    }
+
 }
 export default Options

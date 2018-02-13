@@ -3,7 +3,16 @@ import Simon from './Simon'
 import Options from './Options'
 
 class App extends Component {
+  constructor(){
+    super();
+    this.state = {
+      buttonChange: [{
+       
+      }]
+    }
+  }
   render() {
+
     return (
       <div>
         <div>

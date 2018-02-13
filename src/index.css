@@ -24,3 +24,10 @@ body{
     position: relative;
     left: 60px;
 }
+anim {
+    opacity: .02;
+}
+.buttonHover {
+    opacity: 1;
+    filter: alpha(opacity=60);
+}
