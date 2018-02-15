@@ -5,7 +5,7 @@ const buttonRed = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound2.m
 const buttonYellow = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"); 
 const buttonBlue = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"); 
 const soundBoard = [buttonGreen, buttonRed, buttonYellow, buttonBlue];
-
+ 
 
 class Simon extends Component{
     render(){
@@ -17,7 +17,7 @@ class Simon extends Component{
                 <button onClick = {() => buttonGreen.play()} className="col bg-success form-control-lg border-dark"> </button>
                 <button onClick ={() => buttonRed.play()} className="col bg-danger form-control-lg border-dark"></button>
                 <div className="w-100"></div>
-                <button onClick ={() => buttonYellow.play()} className="col bg-warning form-control-lg border-dark "> </button>
+                <button onClick ={() => buttonYellow.play()} className="col bg-warning form-control-lg border-dark"> </button>
                 <button onClick = {()=> buttonBlue.play()} className="col bg-primary form-control-lg border-dark"> </button>
             </div>
         </div>
